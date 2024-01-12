@@ -1,4 +1,4 @@
-Name: Christina Ngwa ID: 101189153
+Name: Christina Ngwa
 
 Install Intructions:
 Download latest LTS (not "current") installer from site:https://nodejs.org/en/
