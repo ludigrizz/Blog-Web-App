@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #171a2f;
+}
+
+#content {
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    overflow: auto; /* Add overflow:auto if the content exceeds the viewport height */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color:#171a2f;
+    font-family: 'Quicksand', sans-serif;
+}
+.nav_links button {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.logo {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    animation: logo 1s ease-in-out infinite alternate;
+}
+
+@keyframes logo {
+    from{ 
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fef6f6, 0 0 40px #ffffff, 0 0 50px #ffffff, 0 0 60px #ffffff, 0 0 70px #ffffff;
+    } 
+    to{
+        text-shadow: 0 0 20px #fff, 0 0 30px #faf8f9, 0 0 40px #ffffff, 0 0 50px #faf3f3, 0 0 60px #ffffff, 0 0 70px #ffffff, 0 0 80px #ffffff; 
+    }
+  }
+
+
+.nav_links {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+.nav_links li{
+    list-style: none;
+}
+.nav_links a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div{
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 5px;
+}
+
+.blog-post {
+    border: 1px dashed #ccc;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+    background-color: #f9f9f9;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.blog-post h3 {
+    color: white;
+}
+
+.blog-post p {
+    color: white;
+}
+
+.blog-post p.published-date {
+    color: white;
+    font-style: italic;
+    margin-top: 10px;
+}
